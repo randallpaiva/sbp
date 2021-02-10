@@ -53,6 +53,9 @@
 		font-size:11px;
 		font-weight:bold;
 	}
+	.bg-blue{
+		background-color:#36486b;
+	}
 	.bg-yellow{
 		background-color:#FFD700;
 	}
@@ -94,17 +97,21 @@
 	}
 	p.text{
 		font-family:ebrima;
-		font-size:16px;
+		font-size:26px;
 	}
 	p.text-md{
+		
 		font-family:ebrima;
 		font-size:32px;
 	}
-	.top-color-red{
-		border-top:solid 10px #FF0000;
+	.top-color-grey{
+		border-top:solid 10px #484f4f;
 	}
 	.top-color-green{
 		border-top:solid 10px #32CD32;
+	}
+	.top-color-red{
+		border-top:solid 10px #FF0000;
 	}
 	.top-color-yellow{
 		border-top:solid 10px #FFD700;
@@ -174,6 +181,7 @@
 		font-family:Calibri;
 		font-size:auto;
 		margin:40px 0px;
+		
 		border-left:1px solid #b4b4b4;
 		border-right:1px solid #b4b4b4;
 		border-bottom:2px solid #b4b4b4;
@@ -295,8 +303,8 @@
 
 	.footer{
 		text-align:left;
-		background-color:#ccc;
-		color:#000;
+		background-color:#3b3a30;
+		color:#fff;
 		width:auto;
 		height:auto;
 		margin:0px;
