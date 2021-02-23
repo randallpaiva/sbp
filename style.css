@@ -4,36 +4,36 @@
 
 @font-face {
     font-family: Lucida Fax regular;
-    src: url(fonts/LFAX.ttf);
+    src: url(LFAX.ttf);
 }
 @font-face {
     font-family: Lucida Fax demibold;
-    src: url(fonts/LFAXD.ttf);
+    src: url(LFAXD.ttf);
 }
 @font-face {
     font-family: Lucida Fax demibolditalic;
-    src: url(fonts/LFAXDI.ttf);
+    src: url(LFAXDI.ttf);
 }
 @font-face {
     font-family: Lucida Fax italic;
-    src: url(fonts/LFAXI.ttf);
+    src: url(LFAXI.ttf);
 }
 @font-face {
 	font-family:Goldena;
-	src: url(fonts/Goldena.ttf);
+	src: url(Goldena.ttf);
 }
 
 @font-face {
 	font-family:Freestyle;
-	src: url(fonts/FREESCPT.TTF);
+	src: url(FREESCPT.TTF);
 }
 @font-face {
 	font-family:Myanmer;
-	src: url(fonts/mmrtext.ttf);
+	src: url(mmrtext.ttf);
 }
 @font-face {
 	font-family:MyanmerBold;
-	src: url(fonts/mmrtextb.ttf);
+	src: url(mmrtextb.ttf);
 }
 
 @ media only screen and (min-width 600px) and (max-width 900px){
