@@ -14,8 +14,9 @@
 		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="bootstrap.min.js"></script>
 		<script type="text/javascript" src="sbp.js"></script>
+		
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <a name="top">
 
@@ -24,7 +25,7 @@
 	<nav class="navbar navbar-left fixed-top bg-dark navbar-expand-lg navbar-dark">
 		<div class="container">
 	<!-- Brand -->
-					  <a class="navbar-brand" href="#"><img src="logo.png"></a>
+					  <a class="navbar-brand" href="#"><img src="web_logo.png"></a>
 					  
 					  <!-- Toggler/collapsibe Button -->
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -131,11 +132,12 @@
 							<div id="tab_audit" class="snip-m top-color-green">
 								
 									<h2 class="tab-head">AUDITING</h2>
-								<p>Our Professional Services assist NGOs, Government and SME clients with timely, accurate and customized financial reporting systems. We tailor-make sustainable accounting information system.</p>
+								
 								<table align="center">	
 								<tr>
 								<td><div class="icon audit"></div></td>
-								<td><ul>
+								<td align="top">
+								<ul>
 										<li>Back-Office Accounting</li>
 										<li>Financial Statement</li>
 										<li>Accounting Systems</li>
@@ -143,7 +145,7 @@
 									
 								</td>
 								</tr>
-								</table>
+								</table><p>Our Professional Services assist NGOs, Government and SME clients with timely, accurate and customized financial reporting systems. We tailor-make sustainable accounting information system.</p>
 							</div>
 						
 						</div>
@@ -155,7 +157,7 @@
 							<div id="tab_tax" class="snip-m top-color-red">
 							
 								<h2 class="tab-head">TAXATION</h2>
-								<p>With the Government intention to collect revenue from the Internal Revenue Commission (IRC), the Tax office has put a significant pressure on the companies and individuals to comply with tax laws.</p>
+								
 								<table align="center">
 								<tr>
 								<td><div class="icon tax"></div></td>
@@ -168,7 +170,7 @@
 								</td>
 								</tr>
 								</table>	
-															
+								<p>With the Government intention to collect revenue from the Internal Revenue Commission (IRC), the Tax office has put a significant pressure on the companies and individuals to comply with tax laws.</p>							
 							</div>
 						</div>
 						
@@ -177,9 +179,7 @@
 							<div id="tab_stat" class="snip-m top-color-yellow ">
 								
 								<h2 class="tab-head">COMPLIANCE</h2>
-								<p>Our Statutory Compliance Services ensure our clients with legislated requirements. <br/>
-									 
-									We also provide other additional services like Trust Account Management, Immigration Services and Capacity Building.<br/></p>
+								
 								<table align="center">
 								<tr>
 								<td><div class="icon stat"></div></td>
@@ -191,6 +191,10 @@
 								</td>
 								</tr>
 								</table>
+								
+								<p>Our Statutory Compliance Services ensure our clients with legislated requirements. <br/>
+									 
+									We also provide other additional services like Trust Account Management, Immigration Services and Capacity Building.<br/></p>
 							</div>
 						
 						</div>	
@@ -233,6 +237,8 @@
 				</p>
 		</div>	
 	</section>	
+	
+	
 				
 	<section>
 	<div class="container margin-space">
@@ -257,7 +263,7 @@
 					<div class="col-md-4">
 					<h2>Value Added</h2>
 						
-						<ul><li>Lessen administration burden</li><li>Delegates to a reliable and quality focused team to enable you to focus on the business.</li></ul>
+						<ul><li>Reduce administration burden</li><li>Delegates to a reliable and quality focused team to enable you to focus on the business.</li></ul>
 					</div>
 					
 				</div>
@@ -270,6 +276,12 @@
 				<p class="text"><q>With the Government intention to collect revenue from the Internal Revenue Commission (IRC), the
 Tax office has put a significant pressure on the companies and individuals to comply with tax laws.
 We have exceptional expertise in this area, we offer strategic consultancy from the establishment of new entities to resolving tax conflicts with the tax authorities. We advise clients on how to achieve their business objectives by reducing their tax risks and meeting their compliance obligations.</q></p>	
+			<!-- Start: New Tabs -->			
+			
+				
+			
+			<!-- End: New Tabs -->
+				
 				<div class="row snip-m top-color-red">
 					<div class="col-md-4">
 					<h2>Services</h2>
@@ -429,5 +441,11 @@ We have exceptional expertise in this area, we offer strategic consultancy from 
 		
 		</div>
 	</div>
+	<script type="javascript">
+	$(".snip-m").focus(function(){
+				$(".snip-m").fadeIn(slow,swing);
+	});
+	
+	</script>
 </body>
 </html>
